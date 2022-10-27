@@ -1,0 +1,17 @@
+C:\Users\Pablo\Desktop\Proyectos C#\WindowsForms\MouseTester\MouseTester\bin\Debug\net6.0-windows\MouseTester.exe
+C:\Users\Pablo\Desktop\Proyectos C#\WindowsForms\MouseTester\MouseTester\bin\Debug\net6.0-windows\MouseTester.deps.json
+C:\Users\Pablo\Desktop\Proyectos C#\WindowsForms\MouseTester\MouseTester\bin\Debug\net6.0-windows\MouseTester.runtimeconfig.json
+C:\Users\Pablo\Desktop\Proyectos C#\WindowsForms\MouseTester\MouseTester\bin\Debug\net6.0-windows\MouseTester.dll
+C:\Users\Pablo\Desktop\Proyectos C#\WindowsForms\MouseTester\MouseTester\bin\Debug\net6.0-windows\MouseTester.pdb
+C:\Users\Pablo\Desktop\Proyectos C#\WindowsForms\MouseTester\MouseTester\obj\Debug\net6.0-windows\MouseTester.csproj.AssemblyReference.cache
+C:\Users\Pablo\Desktop\Proyectos C#\WindowsForms\MouseTester\MouseTester\obj\Debug\net6.0-windows\MouseTester.Form1.resources
+C:\Users\Pablo\Desktop\Proyectos C#\WindowsForms\MouseTester\MouseTester\obj\Debug\net6.0-windows\MouseTester.csproj.GenerateResource.cache
+C:\Users\Pablo\Desktop\Proyectos C#\WindowsForms\MouseTester\MouseTester\obj\Debug\net6.0-windows\MouseTester.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pablo\Desktop\Proyectos C#\WindowsForms\MouseTester\MouseTester\obj\Debug\net6.0-windows\MouseTester.AssemblyInfoInputs.cache
+C:\Users\Pablo\Desktop\Proyectos C#\WindowsForms\MouseTester\MouseTester\obj\Debug\net6.0-windows\MouseTester.AssemblyInfo.cs
+C:\Users\Pablo\Desktop\Proyectos C#\WindowsForms\MouseTester\MouseTester\obj\Debug\net6.0-windows\MouseTester.csproj.CoreCompileInputs.cache
+C:\Users\Pablo\Desktop\Proyectos C#\WindowsForms\MouseTester\MouseTester\obj\Debug\net6.0-windows\MouseTester.dll
+C:\Users\Pablo\Desktop\Proyectos C#\WindowsForms\MouseTester\MouseTester\obj\Debug\net6.0-windows\refint\MouseTester.dll
+C:\Users\Pablo\Desktop\Proyectos C#\WindowsForms\MouseTester\MouseTester\obj\Debug\net6.0-windows\MouseTester.pdb
+C:\Users\Pablo\Desktop\Proyectos C#\WindowsForms\MouseTester\MouseTester\obj\Debug\net6.0-windows\MouseTester.genruntimeconfig.cache
+C:\Users\Pablo\Desktop\Proyectos C#\WindowsForms\MouseTester\MouseTester\obj\Debug\net6.0-windows\ref\MouseTester.dll
