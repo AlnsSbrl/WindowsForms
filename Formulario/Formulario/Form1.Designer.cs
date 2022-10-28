@@ -100,7 +100,7 @@
             this.botonColor.Name = "botonColor";
             this.botonColor.Size = new System.Drawing.Size(75, 23);
             this.botonColor.TabIndex = 6;
-            this.botonColor.Text = "Color";
+            this.botonColor.Text = "Cor";
             this.botonColor.UseVisualStyleBackColor = true;
             this.botonColor.Click += new System.EventHandler(this.BotonImaxe_Click);
             this.botonColor.MouseEnter += new System.EventHandler(this.Boton_MouseEnter);
@@ -129,7 +129,7 @@
             this.botonImaxe.Name = "botonImaxe";
             this.botonImaxe.Size = new System.Drawing.Size(75, 23);
             this.botonImaxe.TabIndex = 9;
-            this.botonImaxe.Text = "Imagen";
+            this.botonImaxe.Text = "Imaxe";
             this.botonImaxe.UseVisualStyleBackColor = true;
             this.botonImaxe.Click += new System.EventHandler(this.button2_Click);
             this.botonImaxe.MouseEnter += new System.EventHandler(this.Boton_MouseEnter);
@@ -141,7 +141,7 @@
             this.botonSair.Name = "botonSair";
             this.botonSair.Size = new System.Drawing.Size(75, 23);
             this.botonSair.TabIndex = 10;
-            this.botonSair.Text = "Salir";
+            this.botonSair.Text = "Saír";
             this.botonSair.UseVisualStyleBackColor = true;
             this.botonSair.Click += new System.EventHandler(this.button3_Click);
             this.botonSair.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);

@@ -9,7 +9,7 @@ namespace Formulario
         {
             InitializeComponent();
             CenterToScreen();
-            Icon = new Icon(@"C:\Users\Pablo\Desktop\Proyectos C#\WindowsForms\Formulario\Formulario\atari_icon.ico");
+            Icon = Properties.Resources.atari;
             Cursor = Cursors.Hand;
             Text = "Formulario";
             ShowInTaskbar = false;
@@ -23,7 +23,7 @@ namespace Formulario
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if (MessageBox.Show("Quieres salir?", "Formulario", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.Cancel)
+            if (MessageBox.Show("Queres saír?", "Formulario", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.Cancel)
             {
                 e.Cancel = true;
             }
