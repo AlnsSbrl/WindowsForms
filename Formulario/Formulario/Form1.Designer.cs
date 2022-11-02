@@ -102,7 +102,7 @@
             this.botonColor.TabIndex = 6;
             this.botonColor.Text = "Cor";
             this.botonColor.UseVisualStyleBackColor = true;
-            this.botonColor.Click += new System.EventHandler(this.BotonImaxe_Click);
+            this.botonColor.Click += new System.EventHandler(this.BotonCor_Click);
             this.botonColor.MouseEnter += new System.EventHandler(this.Boton_MouseEnter);
             this.botonColor.MouseLeave += new System.EventHandler(this.Boton_MouseLeave);
             // 
@@ -131,7 +131,7 @@
             this.botonImaxe.TabIndex = 9;
             this.botonImaxe.Text = "Imaxe";
             this.botonImaxe.UseVisualStyleBackColor = true;
-            this.botonImaxe.Click += new System.EventHandler(this.button2_Click);
+            this.botonImaxe.Click += new System.EventHandler(this.buttonImaxe_Click);
             this.botonImaxe.MouseEnter += new System.EventHandler(this.Boton_MouseEnter);
             this.botonImaxe.MouseLeave += new System.EventHandler(this.Boton_MouseLeave);
             // 

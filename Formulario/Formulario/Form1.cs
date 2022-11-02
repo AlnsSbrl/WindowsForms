@@ -51,7 +51,7 @@ namespace Formulario
             }
         }
 
-        private void BotonImaxe_Click(object sender, EventArgs e)
+        private void BotonCor_Click(object sender, EventArgs e)
         {            
             if(byte.TryParse(textBoxR.Text, out byte r)&& byte.TryParse(textBoxG.Text,out byte g)&& byte.TryParse(textBoxB.Text,out byte b)){
                 Color color = Color.FromArgb(r, g, b);
@@ -63,7 +63,7 @@ namespace Formulario
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void buttonImaxe_Click(object sender, EventArgs e)
         {
             pictureBox1.ImageLocation = textBoxRutaImaxe.Text;
         }
