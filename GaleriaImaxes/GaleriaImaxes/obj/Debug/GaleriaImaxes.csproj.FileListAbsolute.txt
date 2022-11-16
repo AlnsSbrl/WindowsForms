@@ -1,0 +1,12 @@
+C:\Users\Pablo\Desktop\Proyectos C#\WindowsForms\GaleriaImaxes\GaleriaImaxes\bin\Debug\GaleriaImaxes.exe.config
+C:\Users\Pablo\Desktop\Proyectos C#\WindowsForms\GaleriaImaxes\GaleriaImaxes\bin\Debug\GaleriaImaxes.exe
+C:\Users\Pablo\Desktop\Proyectos C#\WindowsForms\GaleriaImaxes\GaleriaImaxes\bin\Debug\GaleriaImaxes.pdb
+C:\Users\Pablo\Desktop\Proyectos C#\WindowsForms\GaleriaImaxes\GaleriaImaxes\obj\Debug\GaleriaImaxes.csproj.AssemblyReference.cache
+C:\Users\Pablo\Desktop\Proyectos C#\WindowsForms\GaleriaImaxes\GaleriaImaxes\obj\Debug\GaleriaImaxes.csproj.SuggestedBindingRedirects.cache
+C:\Users\Pablo\Desktop\Proyectos C#\WindowsForms\GaleriaImaxes\GaleriaImaxes\obj\Debug\GaleriaImaxes.Form1.resources
+C:\Users\Pablo\Desktop\Proyectos C#\WindowsForms\GaleriaImaxes\GaleriaImaxes\obj\Debug\GaleriaImaxes.Properties.Resources.resources
+C:\Users\Pablo\Desktop\Proyectos C#\WindowsForms\GaleriaImaxes\GaleriaImaxes\obj\Debug\GaleriaImaxes.csproj.GenerateResource.cache
+C:\Users\Pablo\Desktop\Proyectos C#\WindowsForms\GaleriaImaxes\GaleriaImaxes\obj\Debug\GaleriaImaxes.csproj.CoreCompileInputs.cache
+C:\Users\Pablo\Desktop\Proyectos C#\WindowsForms\GaleriaImaxes\GaleriaImaxes\obj\Debug\GaleriaImaxes.exe
+C:\Users\Pablo\Desktop\Proyectos C#\WindowsForms\GaleriaImaxes\GaleriaImaxes\obj\Debug\GaleriaImaxes.pdb
+C:\Users\Pablo\Desktop\Proyectos C#\WindowsForms\GaleriaImaxes\GaleriaImaxes\obj\Debug\GaleriaImaxes.FormImaxes.resources
