@@ -41,6 +41,7 @@
             this.button1.Text = "Left Click";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
+            this.button1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.button1_KeyPress);
             this.button1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseMove);
             // 
             // button2
@@ -52,6 +53,7 @@
             this.button2.Text = "Right Click";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
+            this.button2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.button1_KeyPress);
             this.button2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseMove);
             // 
             // Form1

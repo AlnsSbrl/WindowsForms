@@ -1,10 +1,11 @@
-//#define caracter
+//#define CARACTER
 namespace MouseTester
 {
     public partial class Form1 : Form
     {
 
         static Color colorPorDefecto;
+        static bool esEscape = false;
         public Form1()
         {
             InitializeComponent();
@@ -70,23 +71,22 @@ namespace MouseTester
             }
         }
 
-        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        private void Form1_KeyDown(object sender, KeyEventArgs e)  //no controla chars
         {
             if (e.KeyCode == Keys.Escape)
             {
                 Text = Tag.ToString();
+                esEscape = true;
             }
+#if !CARACTER
+
             else
             {
-
-#if caracter
-            Text =e.KeyValue.ToString(); //unicode
-#else
-                Text = e.KeyCode.ToString(); //letra
-
-#endif
+           
+                Text = e.KeyCode.ToString(); 
+                esEscape=false;
             }
-
+#endif
         }
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
@@ -94,6 +94,17 @@ namespace MouseTester
             {
                 e.Cancel = true;
             }
+        }
+
+        private void button1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+#if CARACTER
+            if (!esEscape)
+            {
+                Text = e.KeyChar.ToString();
+            }
+            esEscape = false;
+#endif
         }
     }
 }
