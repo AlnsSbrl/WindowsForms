@@ -29,27 +29,10 @@ namespace Formulario
             }
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void BotonSalir_Click(object sender, EventArgs e)
         {
             Close();
-        }
-
-        private void Form1_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Escape)
-            {
-                Close();
-            }
-           
-        }
-
-        private void textBox1_KeyDown(object sender, KeyEventArgs e)
-        {
-            if(e.KeyCode == Keys.Enter)
-            {
-                botonColor.PerformClick();
-            }
-        }
+        } 
 
         private void BotonCor_Click(object sender, EventArgs e)
         {            
@@ -66,20 +49,7 @@ namespace Formulario
         private void buttonImaxe_Click(object sender, EventArgs e)
         {
             pictureBox1.ImageLocation = textBoxRutaImaxe.Text;
-        }
-
-        private void textBox4_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Enter)
-            {
-                botonImaxe.PerformClick();
-            }
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
+        }     
 
         private void Boton_MouseEnter(object sender, EventArgs e)
         {
@@ -89,6 +59,21 @@ namespace Formulario
         private void Boton_MouseLeave(object sender, EventArgs e)
         {
             ((Button)sender).BackColor = colorPorDefecto;
+        }
+
+        private void textBoxR_Enter(object sender, EventArgs e)
+        {
+            AcceptButton = botonColor;
+        }
+
+        private void textBoxRutaImaxe_Enter(object sender, EventArgs e)
+        {
+            AcceptButton = botonImaxe;
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

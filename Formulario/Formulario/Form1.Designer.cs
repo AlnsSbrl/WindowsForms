@@ -76,7 +76,7 @@
             this.textBoxR.Name = "textBoxR";
             this.textBoxR.Size = new System.Drawing.Size(38, 23);
             this.textBoxR.TabIndex = 3;
-            this.textBoxR.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyDown);
+            this.textBoxR.Enter += new System.EventHandler(this.textBoxR_Enter);
             // 
             // textBoxG
             // 
@@ -84,7 +84,7 @@
             this.textBoxG.Name = "textBoxG";
             this.textBoxG.Size = new System.Drawing.Size(38, 23);
             this.textBoxG.TabIndex = 4;
-            this.textBoxG.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyDown);
+            this.textBoxG.Enter += new System.EventHandler(this.textBoxR_Enter);
             // 
             // textBoxB
             // 
@@ -92,7 +92,7 @@
             this.textBoxB.Name = "textBoxB";
             this.textBoxB.Size = new System.Drawing.Size(38, 23);
             this.textBoxB.TabIndex = 5;
-            this.textBoxB.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyDown);
+            this.textBoxB.Enter += new System.EventHandler(this.textBoxR_Enter);
             // 
             // botonColor
             // 
@@ -112,7 +112,7 @@
             this.textBoxRutaImaxe.Name = "textBoxRutaImaxe";
             this.textBoxRutaImaxe.Size = new System.Drawing.Size(100, 23);
             this.textBoxRutaImaxe.TabIndex = 7;
-            this.textBoxRutaImaxe.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox4_KeyDown);
+            this.textBoxRutaImaxe.Enter += new System.EventHandler(this.textBoxRutaImaxe_Enter);
             // 
             // label4
             // 
@@ -143,8 +143,7 @@
             this.botonSair.TabIndex = 10;
             this.botonSair.Text = "Saír";
             this.botonSair.UseVisualStyleBackColor = true;
-            this.botonSair.Click += new System.EventHandler(this.button3_Click);
-            this.botonSair.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
+            this.botonSair.Click += new System.EventHandler(this.BotonSalir_Click);
             this.botonSair.MouseEnter += new System.EventHandler(this.Boton_MouseEnter);
             this.botonSair.MouseLeave += new System.EventHandler(this.Boton_MouseLeave);
             // 
@@ -158,6 +157,7 @@
             // 
             // Form1
             // 
+            this.AcceptButton = this.botonColor;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.botonSair;
@@ -181,7 +181,6 @@
             this.Text = "Form1";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
