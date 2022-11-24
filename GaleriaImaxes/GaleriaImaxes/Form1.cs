@@ -16,6 +16,7 @@ namespace GaleriaImaxes
         {
             InitializeComponent();
             Text = "Visor de imágenes";
+            Icon = Properties.Resources.jojo;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -44,6 +45,9 @@ namespace GaleriaImaxes
             }
         }
 
-        
+        private void checkBoxModal_CheckedChanged(object sender, EventArgs e)
+        {
+            checkBoxModal.ForeColor = checkBoxModal.Checked ? Color.Red : Color.Black;        
+        }
     }
 }

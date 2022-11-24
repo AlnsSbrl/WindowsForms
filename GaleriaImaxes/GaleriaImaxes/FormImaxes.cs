@@ -17,6 +17,7 @@ namespace GaleriaImaxes
         {
             InitializeComponent();
             Size = Image.FromFile(filepath).Size;
+            Icon = Properties.Resources.jojo;
             pictureBox1.Image= Image.FromFile(filepath);
             FileInfo file = new FileInfo(filepath);
             Text = file.Name;

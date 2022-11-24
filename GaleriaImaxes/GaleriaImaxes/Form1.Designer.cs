@@ -54,6 +54,7 @@ namespace GaleriaImaxes
             this.checkBoxModal.TabIndex = 1;
             this.checkBoxModal.Text = "Modal";
             this.checkBoxModal.UseVisualStyleBackColor = true;
+            this.checkBoxModal.CheckedChanged += new System.EventHandler(this.checkBoxModal_CheckedChanged);
             // 
             // Form1
             // 
