@@ -1,0 +1,18 @@
+C:\Users\Pablo\Desktop\Proyectos C#\WindowsForms\Operaciones Matematicas\Operaciones Matematicas\bin\Debug\net6.0-windows\Operaciones Matematicas.exe
+C:\Users\Pablo\Desktop\Proyectos C#\WindowsForms\Operaciones Matematicas\Operaciones Matematicas\bin\Debug\net6.0-windows\Operaciones Matematicas.deps.json
+C:\Users\Pablo\Desktop\Proyectos C#\WindowsForms\Operaciones Matematicas\Operaciones Matematicas\bin\Debug\net6.0-windows\Operaciones Matematicas.runtimeconfig.json
+C:\Users\Pablo\Desktop\Proyectos C#\WindowsForms\Operaciones Matematicas\Operaciones Matematicas\bin\Debug\net6.0-windows\Operaciones Matematicas.dll
+C:\Users\Pablo\Desktop\Proyectos C#\WindowsForms\Operaciones Matematicas\Operaciones Matematicas\bin\Debug\net6.0-windows\Operaciones Matematicas.pdb
+C:\Users\Pablo\Desktop\Proyectos C#\WindowsForms\Operaciones Matematicas\Operaciones Matematicas\obj\Debug\net6.0-windows\Operaciones Matematicas.csproj.AssemblyReference.cache
+C:\Users\Pablo\Desktop\Proyectos C#\WindowsForms\Operaciones Matematicas\Operaciones Matematicas\obj\Debug\net6.0-windows\Operaciones_Matematicas.Form1.resources
+C:\Users\Pablo\Desktop\Proyectos C#\WindowsForms\Operaciones Matematicas\Operaciones Matematicas\obj\Debug\net6.0-windows\Operaciones Matematicas.csproj.GenerateResource.cache
+C:\Users\Pablo\Desktop\Proyectos C#\WindowsForms\Operaciones Matematicas\Operaciones Matematicas\obj\Debug\net6.0-windows\Operaciones Matematicas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pablo\Desktop\Proyectos C#\WindowsForms\Operaciones Matematicas\Operaciones Matematicas\obj\Debug\net6.0-windows\Operaciones Matematicas.AssemblyInfoInputs.cache
+C:\Users\Pablo\Desktop\Proyectos C#\WindowsForms\Operaciones Matematicas\Operaciones Matematicas\obj\Debug\net6.0-windows\Operaciones Matematicas.AssemblyInfo.cs
+C:\Users\Pablo\Desktop\Proyectos C#\WindowsForms\Operaciones Matematicas\Operaciones Matematicas\obj\Debug\net6.0-windows\Operaciones Matematicas.csproj.CoreCompileInputs.cache
+C:\Users\Pablo\Desktop\Proyectos C#\WindowsForms\Operaciones Matematicas\Operaciones Matematicas\obj\Debug\net6.0-windows\Operaciones Matematicas.dll
+C:\Users\Pablo\Desktop\Proyectos C#\WindowsForms\Operaciones Matematicas\Operaciones Matematicas\obj\Debug\net6.0-windows\refint\Operaciones Matematicas.dll
+C:\Users\Pablo\Desktop\Proyectos C#\WindowsForms\Operaciones Matematicas\Operaciones Matematicas\obj\Debug\net6.0-windows\Operaciones Matematicas.pdb
+C:\Users\Pablo\Desktop\Proyectos C#\WindowsForms\Operaciones Matematicas\Operaciones Matematicas\obj\Debug\net6.0-windows\Operaciones Matematicas.genruntimeconfig.cache
+C:\Users\Pablo\Desktop\Proyectos C#\WindowsForms\Operaciones Matematicas\Operaciones Matematicas\obj\Debug\net6.0-windows\ref\Operaciones Matematicas.dll
+C:\Users\Pablo\Desktop\Proyectos C#\WindowsForms\Operaciones Matematicas\Operaciones Matematicas\obj\Debug\net6.0-windows\Operaciones_Matematicas.Properties.Resources.resources
