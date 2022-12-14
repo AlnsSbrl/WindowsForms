@@ -1,5 +1,7 @@
 using System.Collections;
+using System.Reflection;
 using System.Windows.Forms.VisualStyles;
+using Timer = System.Windows.Forms.Timer;
 
 namespace Operaciones_Matematicas
 {
@@ -7,6 +9,9 @@ namespace Operaciones_Matematicas
     public partial class Form1 : Form
     {
         Hashtable operacionesHash = new Hashtable();
+        Timer timer;
+        int secondsPassed = 0;
+        int minutesPassed = 0;
         enum TagsNum1
         {
             Sumando = 1,
@@ -42,6 +47,10 @@ namespace Operaciones_Matematicas
             textBoxErrores.ForeColor = Color.Red;
             Icon = Properties.Resources.math;
             operacion = (Operaciones)operacionesHash["+"];
+            timer = new Timer();
+            timer.Interval = 1000;
+            timer.Tick += new EventHandler(this.cambiaTitulo);
+            timer.Start();
         }
 
         private void radioButton_CheckedChanged(object sender, EventArgs e)
@@ -56,7 +65,21 @@ namespace Operaciones_Matematicas
                     int num;
                     int.TryParse(radioButton.Tag.ToString(), out num);
                     cambiaNombresOperadores(num);
+                    
                 }
+            }
+        }
+
+        private void cambiaTitulo(object sender,EventArgs e)
+        {
+            
+            //Text = new string($"{(minutesPassed==0?"00":minutesPassed),2}:{(secondsPassed==0?"00":secondsPassed),2}");
+            Text= string.Format("{0:00}:{1:00}",minutesPassed,secondsPassed);
+            secondsPassed++;
+            if (secondsPassed == 60)
+            {
+                secondsPassed = 0;
+                minutesPassed++;
             }
         }
         private void cambiaColor()
@@ -86,6 +109,7 @@ namespace Operaciones_Matematicas
 
         private void botonOperacion_Click(object sender, EventArgs e)
         {
+            textBoxErrores.Text = "";
             if (textBoxNum1.Text == "" || textBoxNum2.Text == "")
             {
                 textBoxErrores.Text = "Falta por rellenar alguno de los campos.\n";
@@ -101,5 +125,7 @@ namespace Operaciones_Matematicas
                 textBoxResultados.Text = operacion.Invoke(num1, num2).ToString();
             }
         }
+
+        
     }
 }
