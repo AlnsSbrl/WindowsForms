@@ -10,7 +10,7 @@ namespace Operaciones_Matematicas
     {
         Hashtable operacionesHash = new Hashtable();
         Timer timer;
-        int secondsPassed = 0;
+        int secondsPassed = 1;
         int minutesPassed = 0;
         enum TagsNum1
         {
@@ -28,10 +28,10 @@ namespace Operaciones_Matematicas
         }
         enum TagsResultado
         {
-            Suma=1,
-            Resto,
+            Suma = 1,
+            Resta,
             Producto,
-            Cociente     
+            Cociente
         }
         int num1;
         int num2;
@@ -47,6 +47,7 @@ namespace Operaciones_Matematicas
             textBoxErrores.ForeColor = Color.Red;
             Icon = Properties.Resources.math;
             operacion = (Operaciones)operacionesHash["+"];
+            Text = "00:00";
             timer = new Timer();
             timer.Interval = 1000;
             timer.Tick += new EventHandler(this.cambiaTitulo);
@@ -55,26 +56,17 @@ namespace Operaciones_Matematicas
 
         private void radioButton_CheckedChanged(object sender, EventArgs e)
         {
-            foreach (RadioButton radioButton in groupBoxOperaciones.Controls)
-            {
-                if (radioButton.Checked)
-                {
-                    operacion = (Operaciones)operacionesHash[radioButton.Text];
-                    labelSimboloOperacion.Text = radioButton.Text;
-                    cambiaColor();
-                    int num;
-                    int.TryParse(radioButton.Tag.ToString(), out num);
-                    cambiaNombresOperadores(num);
-                    
-                }
-            }
+            operacion = (Operaciones)operacionesHash[((RadioButton)sender).Text];
+            labelSimboloOperacion.Text = ((RadioButton)sender).Text;
+            cambiaColor();
+            int num;
+            int.TryParse(((RadioButton)sender).Tag.ToString(), out num);
+            cambiaNombresOperadores(num);
         }
 
-        private void cambiaTitulo(object sender,EventArgs e)
+        private void cambiaTitulo(object sender, EventArgs e)
         {
-            
-            //Text = new string($"{(minutesPassed==0?"00":minutesPassed),2}:{(secondsPassed==0?"00":secondsPassed),2}");
-            Text= string.Format("{0:00}:{1:00}",minutesPassed,secondsPassed);
+            Text = string.Format("{0:00}:{1:00}", minutesPassed, secondsPassed);
             secondsPassed++;
             if (secondsPassed == 60)
             {
@@ -93,7 +85,7 @@ namespace Operaciones_Matematicas
         {
             labelNombreNum1.Text = ((TagsNum1)operacion).ToString();
             labelNombreNum2.Text = ((TagsNum2)operacion).ToString();
-            labelNombreResultado.Text = ((TagsResultado)operacion).ToString()+":";
+            labelNombreResultado.Text = ((TagsResultado)operacion).ToString() + ":";
         }
         private void textBoxNum1_TextChanged(object sender, EventArgs e)
         {
@@ -119,13 +111,13 @@ namespace Operaciones_Matematicas
                 textBoxErrores.Text += "Alguno de los campos es erróneo";
             }
             if (textBoxNum1.Text != "" && textBoxNum1.BackColor == Color.White && textBoxNum2.Text != "" && textBoxNum2.BackColor == Color.White)
-            {   
+            {
                 int.TryParse(textBoxNum1.Text, out num1);
                 int.TryParse(textBoxNum2.Text, out num2);
                 textBoxResultados.Text = operacion.Invoke(num1, num2).ToString();
             }
         }
 
-        
+
     }
 }
