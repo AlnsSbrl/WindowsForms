@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b9446e03-dc35-4f09-b066-8bdffc28c5da": {
+      "ProjectGuid": "b9446e03-dc35-4f09-b066-8bdffc28c5da",
+      "DisplayName": "PhoneSimulator",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
