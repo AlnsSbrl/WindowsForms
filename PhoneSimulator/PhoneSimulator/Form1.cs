@@ -92,6 +92,7 @@ namespace PhoneSimulator
                 saveForm.Title = Properties.Resources.SaveDialogTitle;
                 saveForm.InitialDirectory = Environment.GetEnvironmentVariable("appdata");
                 saveForm.Filter = Properties.Resources.SaveDialogFilter;
+                saveForm.OverwritePrompt = false;
                 DialogResult respuesta = saveForm.ShowDialog();
                 if (respuesta == DialogResult.OK)
                 {
