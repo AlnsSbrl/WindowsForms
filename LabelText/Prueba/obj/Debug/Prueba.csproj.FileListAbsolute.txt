@@ -1,0 +1,14 @@
+C:\Users\Pablo\Desktop\Proyectos Csharp\WindowsForms\LabelText\Prueba\bin\Debug\Prueba.exe.config
+C:\Users\Pablo\Desktop\Proyectos Csharp\WindowsForms\LabelText\Prueba\bin\Debug\Prueba.exe
+C:\Users\Pablo\Desktop\Proyectos Csharp\WindowsForms\LabelText\Prueba\bin\Debug\Prueba.pdb
+C:\Users\Pablo\Desktop\Proyectos Csharp\WindowsForms\LabelText\Prueba\obj\Debug\Prueba.csproj.AssemblyReference.cache
+C:\Users\Pablo\Desktop\Proyectos Csharp\WindowsForms\LabelText\Prueba\obj\Debug\Prueba.csproj.SuggestedBindingRedirects.cache
+C:\Users\Pablo\Desktop\Proyectos Csharp\WindowsForms\LabelText\Prueba\obj\Debug\Prueba.Form1.resources
+C:\Users\Pablo\Desktop\Proyectos Csharp\WindowsForms\LabelText\Prueba\obj\Debug\Prueba.Properties.Resources.resources
+C:\Users\Pablo\Desktop\Proyectos Csharp\WindowsForms\LabelText\Prueba\obj\Debug\Prueba.csproj.GenerateResource.cache
+C:\Users\Pablo\Desktop\Proyectos Csharp\WindowsForms\LabelText\Prueba\obj\Debug\Prueba.csproj.CoreCompileInputs.cache
+C:\Users\Pablo\Desktop\Proyectos Csharp\WindowsForms\LabelText\Prueba\obj\Debug\Prueba.exe
+C:\Users\Pablo\Desktop\Proyectos Csharp\WindowsForms\LabelText\Prueba\obj\Debug\Prueba.pdb
+C:\Users\Pablo\Desktop\Proyectos Csharp\WindowsForms\LabelText\Prueba\bin\Debug\LabelText.dll
+C:\Users\Pablo\Desktop\Proyectos Csharp\WindowsForms\LabelText\Prueba\bin\Debug\LabelText.pdb
+C:\Users\Pablo\Desktop\Proyectos Csharp\WindowsForms\LabelText\Prueba\obj\Debug\Prueba.csproj.CopyComplete

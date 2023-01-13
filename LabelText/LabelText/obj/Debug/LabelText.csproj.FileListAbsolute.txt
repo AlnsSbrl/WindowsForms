@@ -1,0 +1,8 @@
+C:\Users\Pablo\Desktop\Proyectos Csharp\WindowsForms\LabelText\LabelText\bin\Debug\LabelText.dll
+C:\Users\Pablo\Desktop\Proyectos Csharp\WindowsForms\LabelText\LabelText\bin\Debug\LabelText.pdb
+C:\Users\Pablo\Desktop\Proyectos Csharp\WindowsForms\LabelText\LabelText\obj\Debug\LabelText.csproj.AssemblyReference.cache
+C:\Users\Pablo\Desktop\Proyectos Csharp\WindowsForms\LabelText\LabelText\obj\Debug\LabelText.LabelText.resources
+C:\Users\Pablo\Desktop\Proyectos Csharp\WindowsForms\LabelText\LabelText\obj\Debug\LabelText.csproj.GenerateResource.cache
+C:\Users\Pablo\Desktop\Proyectos Csharp\WindowsForms\LabelText\LabelText\obj\Debug\LabelText.csproj.CoreCompileInputs.cache
+C:\Users\Pablo\Desktop\Proyectos Csharp\WindowsForms\LabelText\LabelText\obj\Debug\LabelText.dll
+C:\Users\Pablo\Desktop\Proyectos Csharp\WindowsForms\LabelText\LabelText\obj\Debug\LabelText.pdb
