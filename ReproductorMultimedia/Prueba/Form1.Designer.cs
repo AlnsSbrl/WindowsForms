@@ -31,10 +31,10 @@
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pbImagenGaleria = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.reproductorMultimedia1 = new ReproductorMultimedia.ReproductorMultimedia();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbImagenGaleria)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -65,13 +65,13 @@
             this.comboBox1.Size = new System.Drawing.Size(75, 21);
             this.comboBox1.TabIndex = 3;
             // 
-            // pictureBox1
+            // pbImagenGaleria
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(226, 80);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(122, 137);
-            this.pictureBox1.TabIndex = 4;
-            this.pictureBox1.TabStop = false;
+            this.pbImagenGaleria.Location = new System.Drawing.Point(226, 80);
+            this.pbImagenGaleria.Name = "pbImagenGaleria";
+            this.pbImagenGaleria.Size = new System.Drawing.Size(122, 137);
+            this.pbImagenGaleria.TabIndex = 4;
+            this.pbImagenGaleria.TabStop = false;
             // 
             // label2
             // 
@@ -84,26 +84,29 @@
             // 
             // reproductorMultimedia1
             // 
-            this.reproductorMultimedia1.Enabled = false;
-            this.reproductorMultimedia1.Location = new System.Drawing.Point(252, 223);
+            this.reproductorMultimedia1.Location = new System.Drawing.Point(217, 223);
             this.reproductorMultimedia1.Name = "reproductorMultimedia1";
-            this.reproductorMultimedia1.Size = new System.Drawing.Size(79, 42);
+            this.reproductorMultimedia1.Size = new System.Drawing.Size(177, 42);
             this.reproductorMultimedia1.TabIndex = 2;
+            this.reproductorMultimedia1.PlayClick += new System.EventHandler(this.reproductorMultimedia1_PlayClick);
+            this.reproductorMultimedia1.DesbordaTiempo += new System.EventHandler(this.reproductorMultimedia1_DesbordaTiempo);
+            this.reproductorMultimedia1.NextClick += new System.EventHandler(this.reproductorMultimedia1_NextClick);
+            this.reproductorMultimedia1.PrevClick += new System.EventHandler(this.reproductorMultimedia1_PrevClick);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(360, 277);
+            this.ClientSize = new System.Drawing.Size(406, 277);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pbImagenGaleria);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.reproductorMultimedia1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbImagenGaleria)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -115,7 +118,7 @@
         private System.Windows.Forms.Label label1;
         private ReproductorMultimedia.ReproductorMultimedia reproductorMultimedia1;
         private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pbImagenGaleria;
         private System.Windows.Forms.Label label2;
     }
 }

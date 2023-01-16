@@ -1,9 +1,9 @@
+C:\Users\Pablo\Desktop\Proyectos Csharp\WindowsForms\ReproductorMultimedia\ReproductorMultimedia\obj\Debug\ReproductorMultimedia.csproj.AssemblyReference.cache
+C:\Users\Pablo\Desktop\Proyectos Csharp\WindowsForms\ReproductorMultimedia\ReproductorMultimedia\obj\Debug\ReproductorMultimedia.ReproductorMultimedia.resources
+C:\Users\Pablo\Desktop\Proyectos Csharp\WindowsForms\ReproductorMultimedia\ReproductorMultimedia\obj\Debug\ReproductorMultimedia.csproj.GenerateResource.cache
 C:\Users\Pablo\Desktop\Proyectos Csharp\WindowsForms\ReproductorMultimedia\ReproductorMultimedia\bin\Debug\ReproductorMultimedia.dll
 C:\Users\Pablo\Desktop\Proyectos Csharp\WindowsForms\ReproductorMultimedia\ReproductorMultimedia\bin\Debug\ReproductorMultimedia.pdb
-C:\Users\Pablo\Desktop\Proyectos Csharp\WindowsForms\ReproductorMultimedia\ReproductorMultimedia\obj\Debug\ReproductorMultimedia.csproj.AssemblyReference.cache
 C:\Users\Pablo\Desktop\Proyectos Csharp\WindowsForms\ReproductorMultimedia\ReproductorMultimedia\obj\Debug\ReproductorMultimedia.Properties.Resources.resources
-C:\Users\Pablo\Desktop\Proyectos Csharp\WindowsForms\ReproductorMultimedia\ReproductorMultimedia\obj\Debug\ReproductorMultimedia.csproj.GenerateResource.cache
 C:\Users\Pablo\Desktop\Proyectos Csharp\WindowsForms\ReproductorMultimedia\ReproductorMultimedia\obj\Debug\ReproductorMultimedia.csproj.CoreCompileInputs.cache
 C:\Users\Pablo\Desktop\Proyectos Csharp\WindowsForms\ReproductorMultimedia\ReproductorMultimedia\obj\Debug\ReproductorMultimedia.dll
 C:\Users\Pablo\Desktop\Proyectos Csharp\WindowsForms\ReproductorMultimedia\ReproductorMultimedia\obj\Debug\ReproductorMultimedia.pdb
-C:\Users\Pablo\Desktop\Proyectos Csharp\WindowsForms\ReproductorMultimedia\ReproductorMultimedia\obj\Debug\ReproductorMultimedia.ReproductorMultimedia.resources

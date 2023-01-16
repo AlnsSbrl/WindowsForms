@@ -58,7 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="ReproductorMultimedia.resx">
@@ -75,10 +75,25 @@
     <None Include="Resources\play_icon_png.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\pause_icon-icons.com_70902.png" />
+    <None Include="Resources\pause_png.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\play_icon_disabledpng.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Steam_logo.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pause.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beforeButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nextButton.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
