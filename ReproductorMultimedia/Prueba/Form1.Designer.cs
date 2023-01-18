@@ -85,7 +85,9 @@
             // reproductorMultimedia1
             // 
             this.reproductorMultimedia1.Location = new System.Drawing.Point(217, 223);
+            this.reproductorMultimedia1.Minutos = 1;
             this.reproductorMultimedia1.Name = "reproductorMultimedia1";
+            this.reproductorMultimedia1.Segundos = 58;
             this.reproductorMultimedia1.Size = new System.Drawing.Size(177, 42);
             this.reproductorMultimedia1.TabIndex = 2;
             this.reproductorMultimedia1.PlayClick += new System.EventHandler(this.reproductorMultimedia1_PlayClick);

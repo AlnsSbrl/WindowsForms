@@ -32,6 +32,7 @@ namespace Prueba
             BackColor = Color.MediumPurple;
             pbImagenGaleria.SizeMode = PictureBoxSizeMode.StretchImage;
             timer = new Timer();
+            reproductorMultimedia1.ActualizacionTiempoReproduccion();
         }
 
         private void cambiaImagen(object sender, EventArgs e)
@@ -54,23 +55,31 @@ namespace Prueba
             DialogResult res = fb.ShowDialog();
             path = fb.SelectedPath;
             label1.Text = "Directorio seleccionado: " + path;
-            try
+            if (DialogResult.OK == res)
             {
                 DirectoryInfo dir = new DirectoryInfo(path);
                 FileInfo[] files;
-                if (dir.Exists)
+                try
                 {
                     files = dir.GetFiles().Where(f => imageFilters.Contains(f.Extension.ToLower())).ToArray();
                     imagenes = new Image[files.Length];
                     for (int i = 0; i < files.Length; i++)
                     {
-                        imagenes[i] = Image.FromFile(files[i].FullName);
+                        try
+                        {
+                            imagenes[i] = Image.FromFile(files[i].FullName);
+                        }
+                        catch (OutOfMemoryException)
+                        {
+                            Console.WriteLine("está corrupto mmm");
+                        }
                     }
+
                 }
-            }
-            catch (IOException)
-            {
-                Console.WriteLine("herror de acceso al arxivo illo");
+                catch (IOException)
+                {
+                    Console.WriteLine("herror de acceso al arxivo illo");
+                }
             }
         }
 
@@ -94,8 +103,7 @@ namespace Prueba
 
         private void reproductorMultimedia1_DesbordaTiempo(object sender, EventArgs e)
         {
-            reproductorMultimedia1.segundos = 0;
-            reproductorMultimedia1.minutos++;
+            reproductorMultimedia1.Minutos++;
         }
 
         private void reproductorMultimedia1_NextClick(object sender, EventArgs e)
@@ -114,7 +122,7 @@ namespace Prueba
             {
                 imagenAMostrar = imagenes.Length;
             }
-            
+
             if (imagenes != null)
             {
                 pbImagenGaleria.Image = imagenes[imagenAMostrar % imagenes.Length];
