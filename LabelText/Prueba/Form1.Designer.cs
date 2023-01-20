@@ -28,26 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.labelText1 = new LabelText.LabelText();
             this.btnCambiar = new System.Windows.Forms.Button();
             this.btnSeparar = new System.Windows.Forms.Button();
+            this.labelText1 = new LabelText.LabelText();
             this.SuspendLayout();
-            // 
-            // labelText1
-            // 
-            this.labelText1.Location = new System.Drawing.Point(45, 62);
-            this.labelText1.Name = "labelText1";
-            this.labelText1.Posicion = LabelText.ePosicion.IZQUIERDA;
-            this.labelText1.PswChar = '\0';
-            this.labelText1.Separacion = 0;
-            this.labelText1.Size = new System.Drawing.Size(157, 20);
-            this.labelText1.TabIndex = 0;
-            this.labelText1.TextLbl = "LabelText";
-            this.labelText1.TextTxt = "";
-            this.labelText1.SeparationChanged += new System.EventHandler(this.labelText1_SeparationChanged);
-            this.labelText1.TxtChanged += new System.EventHandler(this.labelText1_TxtChanged);
-            this.labelText1.PosicionChanged += new System.EventHandler(this.labelText1_PosicionChanged);
-            this.labelText1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.labelText1_KeyUp);
             // 
             // btnCambiar
             // 
@@ -68,6 +52,22 @@
             this.btnSeparar.Text = "Separar";
             this.btnSeparar.UseVisualStyleBackColor = true;
             this.btnSeparar.Click += new System.EventHandler(this.btnSeparar_Click);
+            // 
+            // labelText1
+            // 
+            this.labelText1.Location = new System.Drawing.Point(45, 62);
+            this.labelText1.Name = "labelText1";
+            this.labelText1.Posicion = LabelText.ePosicion.IZQUIERDA;
+            this.labelText1.PswChar = '\0';
+            this.labelText1.Separacion = 0;
+            this.labelText1.Size = new System.Drawing.Size(154, 20);
+            this.labelText1.TabIndex = 0;
+            this.labelText1.TextLbl = "LabelText";
+            this.labelText1.TextTxt = "";
+            this.labelText1.SeparationChanged += new System.EventHandler(this.labelText1_SeparationChanged);
+            this.labelText1.TxtChanged += new System.EventHandler(this.labelText1_TxtChanged);
+            this.labelText1.PosicionChanged += new System.EventHandler(this.labelText1_PosicionChanged);
+            this.labelText1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.labelText1_KeyUp);
             // 
             // Form1
             // 
